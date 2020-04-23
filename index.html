@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/index-style.css">
+  </head>
+
+  <body>
+    <form action="https://academy-form-lesson.herokuapp.com" method="POST">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="surname">Surname:</label>
+        <input type="text" name="surname" id="surname">
+        <br><br> 
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="age">How old are You?</label>
+        <input type="number" name="age" id="age" value="12">
+        <br><br>
+        <label for="birth">Full date of birth:</label>
+        <input type="date" name="birth" id="birth">
+        <br><br>
+        <label for="accept">I accept the term of the agreement</label>
+        <input type="checkbox" name="accept" id="accept">
+      </fieldset>
+
+      <br>
+      <fieldset>
+        <legend>Registration</legend>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail" placeholder="email@example.com">
+        <br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd">
+      </fieldset>
+
+      <br>
+      <fieldset>
+        <legend>An interesting fact about you!</legend>
+        <label for="#">Do you love cats?</label>
+        <input type="radio" name="yes" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="no" id="no" value="no">
+        <label for="no">No</label>
+        <br><br>
+        <label for="favcolor">What is your favorite color?</label>
+        <input type="color" name="favcolor" id="favcolor">
+        <br><br>
+        <label for="timepick">What time do you go to bed?</label>
+        <input type="time" name="timepick" id="timepick">
+      </fieldset>
+    </form>
+  </body>
+</html>
